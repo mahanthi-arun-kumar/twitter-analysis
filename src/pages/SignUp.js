@@ -15,6 +15,7 @@ const SignUp = () => {
   const [passwordReveal, setPasswordReveal] = useState(false);
   const [reenterPasswordReveal, setReenterPasswordReveal] = useState(false);
   const navigate = useNavigate();
+  console.log(user)
   const onEmailChange = (event) => {
     setEmail(event.target.value);
   };

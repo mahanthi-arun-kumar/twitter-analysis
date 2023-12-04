@@ -9,6 +9,7 @@ function AppHeader() {
   const [error, setError] = useState(null);
   const [user, setUser] = useState(null);
   const navigate = useNavigate();
+  console.log(user,error)
   const handleLogout = async () => {
     try {
       await signOut(auth);

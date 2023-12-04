@@ -13,6 +13,7 @@ const Login = () => {
   const onEmailChange = (event) => {
     setEmail(event.target.value);
   };
+  console.log(user)
   const [error, setError] = useState("");
   const navigate = useNavigate();
   const [passwordReveal, setPasswordReveal] = useState(false);
